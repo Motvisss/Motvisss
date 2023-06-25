@@ -1,0 +1,12 @@
+meme_dict = {
+            "LMAO": "Laughing my ass of",
+            "LOL": "Laughing out loud",
+            "IDK": "I dont know",
+            "WTH": "What the hell",
+            "BTW": "By the way",
+            }
+word = input("Enter an incomprehensible word (in capital letters!): ")
+if word in meme_dict.keys():
+    print("it means:", meme_dict[word] )
+else:
+    print("There is no", word, "in dict")
